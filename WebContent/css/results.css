@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+
+body{
+	font-family:  "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+.container-fluid{
+	background-color: white;
+	border-color: transparent;
+	border-style: none;
+}
+
+
+.btn-default:hover{
+	background-color:#f7c59f;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	background-color: #f7c59f;
+}
+
+a{
+	color: white;
+}
+
+.my_container {
+  position: relative;
+  width: 30%;
+  display: inline;
+}
+
+.my_container:hover .overlay {
+  opacity: 0.8;
+}
+
+.image {
+  width: 145px;
+  height: 140px;
+}
+
+.overlay {
+  position: absolute;
+  top: -56px;
+  bottom: 0;
+  left: 2px;
+  right: 50px;
+  height: 140px;
+  width: 140px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ececec;
+  border-radius: 15%;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.image {
+  width: 145px;
+  height: 140px;
+  border-radius: 15%;
+}
+
+.row{
+	background-color:white;
+	height: 250px;
+}
+
+#recipedia-logo {
+	height: 40px;
+	width: 90px;
+	margin-left: -5%;
+	margin-top: 10%;
+}
+
+
+#main-div {
+	vertical-align:top;
+}
+#search-div {
+	vertical-align:top;
+	margin-top: 4%;
+}
+
+#header{
+	background-color: white;
+}

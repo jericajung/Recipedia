@@ -1,0 +1,235 @@
+/*
+NAV BAR
+*/
+
+#title{
+	font-family:  "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+
+.container-fluid{
+	background-color: white;
+	border-color: transparent;
+	border-style: none;
+	
+}
+.image-container{
+	background-color: #f7c59f;
+	border-radius: 15%;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+	background-color: #f7ed6a;
+}
+
+nav.navbar.navbar-inverse {
+  border-color: transparent;
+ }
+
+.navbar-inverse .navbar-nav>li>a{
+	color: black;
+}
+.navbar-inverse:hover .navbar-nav>li>a:hover{
+	color: #ff8a5b;
+}
+
+.navbar-inverse .navbar-brand {
+	color:#f7c59f;
+	
+}
+
+.navbar-brand:hover {
+	color: #ff8a5b;
+}
+
+.navbar-inverse .navbar-brand:hover, 
+.navbar-inverse .navbar-brand:focus {
+  background-color: transparent;
+  color: #f7c59f;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	background-color: #f7c59f;
+	background-image: linear-gradient(to bottom,#f7c59f 0,#f7c59f 100%);
+}
+
+
+/*
+BODY
+*/
+
+
+body{
+	background: url(../images/veggies.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family:  "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    font-size: 14px;
+}
+
+#ingredient-box {
+	padding-top: 1%;
+	height: 300px;
+	width: 800px;
+	margin-top: 1%;
+	overflow-y: scroll;
+	background-color: rgba(247,197,159,.7);
+	
+}
+
+#instructions-box {
+	padding-top: 1%;
+	height: 300px;
+	width: 800px;
+
+	margin-top: 1%;
+	overflow-y: scroll;
+	background-color: rgba(247,197,159,.7);
+}
+#tag-box {
+	padding-top: 1%;
+	height: 300px;
+	width: 800px;
+	margin-top: 1%;
+	overflow-y: scroll;
+	background-color: rgba(247,197,159,.7);
+	
+}
+.ingredient-name {
+	font-size: 150%;
+}
+.ingredient-quantity {
+	font-size: 150%;
+	width: 8%;
+} 
+.ingredient-units {
+	font-size: 150%;
+	padding-left: 0;
+}
+.ingredient-div {
+	background-color: #FF8A5B;
+	border-radius: 20px;
+	margin-bottom: .5%;
+	margin-left: 1px;
+	margin-right: 1px;
+	-webkit-transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -ms-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
+.ingredient-deleting-div {
+	background-color: #FF8A5B;
+	border-radius: 20px;
+	margin-bottom: .5%;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.ingredient-div:hover {
+	background-color: #F7ED6A;
+	transform: scale(1.03);
+}
+.instruction-div {
+	background-color: #FF8A5B;
+	padding-left: 2%;
+	border-radius: 20px;
+	margin-bottom: .5%;
+	margin-left: 1px;
+	margin-right: 1px;
+	-webkit-transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -ms-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+	
+}
+.instruction-deleting-div {
+	background-color: #FF8A5B;
+	border-radius: 20px;
+	margin-bottom: .5%;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.instruction-div:hover {
+	background-color: #F7ED6A;
+	transform: scale(1.03);
+}
+.tag-div {
+	background-color: #FF8A5B;
+	padding-left: 2%;
+	border-radius: 20px;
+	margin-bottom: .5%;
+	margin-left: 1px;
+	margin-right: 1px;
+	-webkit-transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -ms-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
+.tag-div:hover {
+	background-color: #F7ED6A;
+	transform: scale(1.03);
+}
+.tag-deleting-div {
+	background-color: #FF8A5B;
+	border-radius: 20px;
+	margin-bottom: .5%;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.container {
+	border-radius: 15px;
+}
+#main-container {
+	transition-delay: 20s;
+	background-color: #E4FDE1;
+	margin-top: 5%;
+	background: rgba(228,253,225, 0.92);
+	margin-bottom: 5%;
+}
+.instruction-number {
+	font-weight: bold;
+	width: 96%;
+	float: left;
+}
+#recipe-image {
+	display: none;
+	margin-bottom: 1%;
+}
+.close-button {
+	height: 20px;
+	width: 20px;
+	margin-left: 4%;
+	margin-top: 1%;
+}
+.close-button:hover {
+	cursor: pointer;
+}
+#final-submit-button {
+	margin-bottom: 1%;
+}
+#recipe-name-form {
+	margin-bottom: 3%;
+}
+.instruction-close-button {
+	margin-top: 8px;
+	margin-left: 0;
+}
+#recipedia-logo {
+	height: 20px;
+	width: 87px;
+	margin-left: -5%;
+	margin-top: 21.5%;
+	padding-left: 11%;
+	padding-right: 10%;
+}
+
+.active {
+	background-color: #f7ef5f;
+	color: #f7ef5f;
+	background-image: linear-gradient(to bottom,#f7ef5f 0,#f7ef5f 100%);
+	
+}
+#create-recipes-tab {
+	background-image: none;
+}

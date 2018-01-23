@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: white;
+	margin-top: 30px;
+	
+}
+.row{
+	margin-top: 50px;
+}
+
+.header{
+	font-size: 70px;
+	color: #f7c59f;
+	text-align: center;
+}
+.headers{
+	color: #f7c59f;
+	text-align: center;
+}
+
+.navbar {
+	background-color: #ff8a5b;
+	border-color: #ff8a5b;
+}
+
+.row-sidebar {
+	height: 800px;
+	width:  100%;
+	font-family: sans-serif;
+	background-color: #f7c59f;
+}
+
+#recipeImage {
+	border-radius: 25px;
+	border-color: white;
+	/* padding-left: 7px; */
+	margin: 5%;
+	height: 90%;
+	width: 90%;
+}
+
+#image-container{
+	padding: 5px;
+	border-radius: 25px;
+	border-width: 2px;
+	margin: 20px 20px 20px 20px;
+	height: 70px;
+	width: 100px;
+	background: linear-gradient(-90deg, #ff8a5b, #fc9651);
+}
+
+#likes{
+	text-align: center;
+	color: #ff8a5b;
+}
+#ingredient-list{
+	line-height: 30px;
+	text-align: center;
+	margin-left: -50px;
+}
+
+/* #instructions{
+	line-height: 30px;
+} */
